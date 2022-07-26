@@ -7,7 +7,7 @@ import java.util.Date;
 import com.github.javafaker.Faker;
 
 public class DataGenerator {
-
+	// this is to get fake email
 	public static String getEmail() {
 		Faker faker = new Faker();
 		return faker.name().firstName() + faker.name().lastName() + "@gmail.com";
