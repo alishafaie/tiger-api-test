@@ -13,7 +13,7 @@ public class DataGenerator {
 		return faker.name().firstName() + faker.name().lastName() + "@gmail.com";
 
 	}
-
+	// this is to get fake phone number
 	public static String getPhoneNumber() {
 		Faker faker = new Faker();
 		return faker.phoneNumber().cellPhone();
